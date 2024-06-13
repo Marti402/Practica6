@@ -47,8 +47,7 @@ Este subprograma configura la comunicación serial, intenta inicializar la tarje
 **En este caso el *"void loop()"* no contiene instrucciones**
 
 ### Ejemplo de salida por el puerto serie:
-Numero de ejemplo:
-*5784962103*
+Numero de ejemplo: *5784962103*
 
 La salida por el puerto serie será:
 
@@ -100,7 +99,7 @@ Este código establece la comunicación con el módulo lector de tarjetas RFID M
 
 
 ### Ejemplo de salida por el puerto serie:
-Si tenemos una tarjeta con el siguiente UID: 27 12 65 25
+Suponiendo que tengamos una tarjeta con el siguiente UID: 27 12 65 25
 
 La salida por el puerto serie será:
 
