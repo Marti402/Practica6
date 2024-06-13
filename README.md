@@ -36,6 +36,8 @@ void loop()
 {
 }
 ```
+### Funcionamiento del código:
+
 Este código inicializa una tarjeta SD, luego abre un archivo llamado "archivo.txt". Una vez abierto, lee el contenido del archivo y lo envía a través del puerto serie, y finalmente cierra el archivo.
 
 ###**El "void setup"**: 
@@ -79,6 +81,11 @@ mfrc522.PICC_HaltA();
 }
 }
 ```
+### Funcionamiento del código:
+
+Este código establece la comunicación con el módulo lector de tarjetas RFID MFRC522. Su función es escanear en busca de tarjetas RFID y, al detectar una, leer su UID y mostrarlo en el monitor serial. Esto permite identificar de manera única cada tarjeta dentro del área de alcance del lector RFID.
+
+
 
 
 
