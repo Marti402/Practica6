@@ -42,7 +42,7 @@ Este código inicializa una tarjeta SD, luego abre un archivo llamado "archivo.t
 
 Este subprograma configura la comunicación serial, intenta inicializar la tarjeta SD en el pin 4, abre el archivo "archivo.txt" si la inicialización tiene éxito, y lee su contenido para enviarlo a través de la comunicación serial.
 
-En este caso el **"void loop()"** no contiene instrucciones
+**En este caso el *"void loop()"* no contiene instrucciones**
 
 ## EJERCICIO 2
 
