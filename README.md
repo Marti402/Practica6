@@ -46,6 +46,19 @@ Este subprograma configura la comunicación serial, intenta inicializar la tarje
 
 **En este caso el *"void loop()"* no contiene instrucciones**
 
+### Ejemplo de salida por el puerto serie:
+Numero de ejemplo:
+*5784962103*
+
+La salida por el puerto serie será:
+
+```
+Iniciando SD ... inicialización exitosa
+archivo.txt:
+Este es un archivo de prueba.
+5784962103
+```
+
 ## EJERCICIO 2
 
 ```c++
@@ -86,7 +99,15 @@ mfrc522.PICC_HaltA();
 Este código establece la comunicación con el módulo lector de tarjetas RFID MFRC522. Su función es escanear en busca de tarjetas RFID y, al detectar una, leer su UID y mostrarlo en el monitor serial. Esto permite identificar de manera única cada tarjeta dentro del área de alcance del lector RFID.
 
 
+### Ejemplo de salida por el puerto serie:
+Si tenemos una tarjeta con el siguiente UID: 27 12 65 25
 
+La salida por el puerto serie será:
+
+```
+Lectura del UID
+Card UID: 27 12 65 25
+```
 
 
 
