@@ -1,4 +1,5 @@
-# Practica6: BUSOS DE COMUNICACIO 2/ SPI
+# Practica6: BUSOS DE COMUNICACIO
+
 ## Introducció:
 En la práctica anterior, exploramos los buses de comunicación. Ahora, en esta práctica, continuaremos con ese estudio, concentrándonos especialmente en el bus SPI.
 
